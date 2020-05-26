@@ -23,7 +23,7 @@ COPY ./* /app/
 
 WORKDIR /app
 
-RUN lerna bootstrap
+#RUN lerna bootstrap
 
 #ENTRYPOINT ["gulp"]
 
