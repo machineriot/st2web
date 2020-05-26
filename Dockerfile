@@ -22,6 +22,8 @@ RUN npm install -g gulp-cli lerna
 
 WORKDIR /app
 
+RUN lerna bootstrap
+
 #ENTRYPOINT ["gulp"]
 
 #EXPOSE 80
