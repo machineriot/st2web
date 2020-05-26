@@ -19,11 +19,11 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 RUN mkdir -p /app
 
 RUN npm install -g gulp-cli lerna
-COPY . /app
+ADD . /app
 
 WORKDIR /app
 
-#RUN lerna bootstrap
+RUN lerna bootstrap
 
 #ENTRYPOINT ["gulp"]
 
