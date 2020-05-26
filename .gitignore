@@ -13,7 +13,7 @@ debian/*.substvars
 debian/files
 
 .vagrant
-
+.idea/*
 .DS_Store
 
 # VIM Swap
