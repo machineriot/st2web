@@ -25,7 +25,7 @@ WORKDIR /app
 
 RUN lerna bootstrap
 
-ENTRYPOINT ["gulp"]
+CMD ["gulp"]
 
 #EXPOSE 80
 EXPOSE 3000
